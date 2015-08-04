@@ -1,0 +1,7 @@
+import mainpackage.MainSubClass;
+
+public class SamePackage{
+
+	new MainSubClass();
+	
+}

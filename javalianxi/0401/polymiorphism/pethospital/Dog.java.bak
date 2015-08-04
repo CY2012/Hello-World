@@ -1,0 +1,11 @@
+package pethospital;
+
+public class Dog extends Animal{
+
+	@Override
+	public void makeNoise(){
+		System.out.println("¹·ÕıÔÚÍôÍôµÄ½Ğ¡£¡£¡£");
+	
+	}
+	
+}

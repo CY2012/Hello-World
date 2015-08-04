@@ -1,0 +1,15 @@
+import com.wyhello.yangtingting.A;
+
+class PackageDemo{
+
+	public static void main(String[] args){
+	    //yangtingting a b()
+		//changyu a b()
+
+		com.wyhello.changyu.A a1 = new com.wyhello.changyu.A();
+		a1.a();
+
+		A a = new A();
+		a.a();
+	}
+}

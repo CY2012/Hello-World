@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+class Vehicle{
+
+
+	int speed;
+	int v;
+	public void move(){
+		System.out.println("移动");
+	}
+	public void setSpeed(int s){
+		speed = s;
+	}
+	public void speedUp(){
+		System.out.print("当前速度为：" + speed + "\t");
+		speed++;
+		System.out.println("加速后的速度为：" + speed);		
+	}
+	public void speedDown(){
+		System.out.print("当前速度为：" + speed + "\t");
+		speed--;
+		System.out.println("减速后的速度为：" + speed);
+	}		
+
+
+	public void init(int s,int vv){
+		speed = s;
+		v = vv;
+		System.out.println("速度：" + speed + "体积：" + v);
+	}
+public static void main(String[] args){
+    Vehicle v1 = new Vehicle();
+	Scanner sc = new Scanner(System.in);
+	System.out.println("请输入速度：");
+	int a = sc.nextInt();
+	System.out.println("请输入体积：");
+	int b = sc.nextInt();
+	v1.init(a,b);
+	v1.speedUp();
+	v1.speedUp();
+	v1.speedUp();
+	v1.speedUp();
+	v1.speedUp();
+	v1.speedUp();
+	v1.speedDown();
+	//Vehicle v2 = new Vehicle();
+	}
+}

@@ -1,0 +1,8 @@
+class Computer{
+	public void dvdPlay(DVD dvd){
+		dvd.play();
+	}
+	public void dvdBurn(DVD dvd){
+		dvd.burn();
+	}
+}

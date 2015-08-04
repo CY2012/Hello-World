@@ -1,0 +1,43 @@
+class MyFather2{
+	static {
+		System.out.println("MyFather2 static");
+	}
+	{
+		System.out.println("1");
+	}
+	public MyFather2(){
+		System.out.println("MyFather2()");
+	}
+}
+class MyFather1 extends MyFather2{
+	static {
+		System.out.println("MyFather1 static");
+	}
+	{
+		System.out.println("2");
+	}
+	public MyFather1(){
+		System.out.println("MyFather1()");
+	}
+}
+class MySub1 extends MyFather1{
+
+	static {
+		System.out.println("MySub1 static");
+	}
+	{
+		System.out.println("3");
+	}
+	public MySub1(){
+		System.out.println("MySub1()");
+	}
+}
+class Demo{
+	static {
+		System.out.println("Demo static");
+	}
+	public static void main(String[] args){
+	    new MySub1();
+		new MySub();
+	}
+}

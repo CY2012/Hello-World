@@ -1,0 +1,20 @@
+package polymiorphism;
+
+class PhoneApp{
+	public static void main(String[] args){
+	    Phone iphone6 = new Apple();
+		Battery b = new Byd("比亚迪",100,"锂离子");
+		
+		iphone6.setBattery(b);
+
+		iphone6.call();
+		iphone6.sendMessage("你好！");
+
+		System.out.println("。。。。。。。");
+
+		b = new Pisen("品胜",50,"镍镉");
+		iphone6.setBattery(b);
+		iphone6.call();
+
+	}
+}

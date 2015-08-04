@@ -1,0 +1,47 @@
+public class OptDemo1{
+
+	public static void main(String[] args){
+	    int i = 10,j = 10, k = 10, l = 10, m = 10, n = 10;
+		System.out.println("i\tj\tk\tl\tm\tn");
+		System.out.println(i + "\t" + j + "\t" + k + "\t" + l + "\t" + m + "\t" + n);
+        j++;
+		i--;
+		n = -l;
+		System.out.println(i + "\t" + j + "\t" + k + "\t" + l + "\t" + m + "\t" + n);
+        System.out.println(++m);  //11
+		System.out.println(l++);  //10
+		System.out.println(i + "\t" + j + "\t" + k + "\t" + l + "\t" + m + "\t" + n);
+
+		int a = 1;
+		int b = 2;
+		int c = a + (++b);
+		int d = a + (b++);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(b);
+
+		int a1 = 5;
+		int b1 = 3;
+		System.out.println(a1 / b1);
+		System.out.println(b1 % a1);
+		a1 += b1;
+		System.out.println(a1);
+		a1 -= b1;
+		System.out.println(a1);
+		a1 *= b1;
+		System.out.println(a1);
+		a1 /= b1;
+		System.out.println(a1);
+		a1 %= b1;
+		System.out.println(a1);
+
+		boolean bb = 4 == 3;
+		System.out.println("bb = " + bb);
+		
+
+
+
+	}
+
+
+}

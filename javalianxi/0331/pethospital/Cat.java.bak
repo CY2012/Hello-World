@@ -1,0 +1,9 @@
+package pethospital;
+
+public class Cat extends Animal{
+
+	@Override
+	public void makeNoise(){
+		System.out.println("Ã¨ÕýÔÚß÷ß÷µÄ½Ð¡£¡£¡£");
+	}
+}

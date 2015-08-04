@@ -1,0 +1,15 @@
+public class GangBi{
+	public static void main(String[] args){
+	    int i = 38;
+		int sum = 0;
+		while(i<1000){
+			i = i + 38;
+			sum++;
+	
+			}
+		System.out.println("sum =" + sum);
+	}
+}
+
+
+

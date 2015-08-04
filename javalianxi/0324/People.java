@@ -1,0 +1,24 @@
+public class People{
+
+	String name;//成员变量
+	String sex; //成员变量
+
+	public void sing(){
+		System.out.println("名字为" + name + "，性别为" + sex + "的人正在唱歌");
+	}
+	public void eat(){
+		System.out.println("名字为" + name + "，性别为" + sex + "的人正在吃饭");
+	}
+
+}
+class PeopleDemo{
+	public static void main(String[] args){
+	    People pp = new People();
+
+		pp.name = "李二丫";
+		pp .sex = "女";
+
+		pp.sing();
+		pp.eat();
+	}
+}

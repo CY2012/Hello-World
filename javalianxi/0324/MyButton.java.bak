@@ -1,0 +1,24 @@
+public class MyButton{
+
+	String shape = "方形";
+	String color = "红色";
+
+	public void rotate(){
+		System.out.println(shape + "形状，颜色为" + color + "的按钮正在旋转");
+	}
+	public void playSound(){
+		System.out.println(shape + "形状，颜色为" + color + "的按钮正在发声");
+	}
+}
+class ButtonDemo{
+
+	public static void main(String[] args){
+	    MyButton mb = new MyButton();
+
+		//mb.shape = "方形";
+		//mb.color = "红色";
+
+		mb.rotate();
+		mb.playSound();
+	}
+}

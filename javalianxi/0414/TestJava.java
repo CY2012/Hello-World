@@ -1,0 +1,22 @@
+
+//范例：TestJava1.java
+//这个程序主要是求得数组中的最大值和最小值
+public class TestJava{
+
+	public static void main(String args[]){
+		int i,min,max;
+		int A[]={74,48,30,17,62};  // 声明整数数组 A,并赋初值
+
+		min=max=A[0];
+		System.out.print("数组 A 的元素包括： ");
+		for(i=0;i<A.length;i++){
+			System.out.print(A[i]+" ");
+		if(A[i]>max) // 判断最大值
+			max=A[i];
+		if(A[i]<min) // 判断最小值
+			min=A[i];
+	}
+	System.out.println("\n数组的最大值是：" + max); // 输出最大值
+	System.out.println("数组的最小值是：" + min);   // 输出最小值
+	}
+}

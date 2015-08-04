@@ -1,0 +1,9 @@
+package pethospital;
+
+public class Mouse extends Animal{
+	
+	@Override
+	public void makeNoise(){
+		System.out.println("老鼠正在吱吱的叫。。。");
+	}
+}

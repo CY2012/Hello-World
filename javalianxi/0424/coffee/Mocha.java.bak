@@ -1,0 +1,10 @@
+public class Mocha extends Beverage{
+	
+	public Mocha(){}
+	public Mocha(){
+		super(price,"Ä¦¿¨");
+	}
+	public double cost(){
+		return getPrice();
+	}
+}
